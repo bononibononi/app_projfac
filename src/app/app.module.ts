@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { AccordionModule } from 'primeng/accordion';
 import { PanelModule } from 'primeng/panel';
 import { LoginComponent } from './seguranca/login/login.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PrimeNGModule } from './primeng.modules';
 
 @NgModule({
@@ -16,6 +16,7 @@ import { PrimeNGModule } from './primeng.modules';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     AccordionModule,
     PanelModule,
