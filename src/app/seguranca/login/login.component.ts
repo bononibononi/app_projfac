@@ -15,6 +15,6 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
   login(){
-    this.router.navigate([]) // colocar aqui rota para página pessoas
+    this.router.navigate(['./pessoascad'])
   }
 }

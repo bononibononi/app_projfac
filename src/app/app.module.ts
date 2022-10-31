@@ -9,6 +9,7 @@ import { LoginComponent } from './seguranca/login/login.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PrimeNGModule } from './primeng.modules';
 
+
 @NgModule({
   declarations: [
     AppComponent,

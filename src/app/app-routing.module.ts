@@ -4,6 +4,8 @@ import { LoginComponent } from './seguranca/login/login.component';
 
 const routes: Routes = [
   {path: 'login', component: LoginComponent},
+{path: 'pessoascad', loadChildren:()=> import('./pessoas/pessoas.module').then((m)=> m.PessoasModule)}
+
 ];
 
 @NgModule({
