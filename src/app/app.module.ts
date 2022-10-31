@@ -5,23 +5,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AccordionModule } from 'primeng/accordion';
 import { PanelModule } from 'primeng/panel';
-import { ButtonModule } from 'primeng/button';
-import { RadioButtonModule } from 'primeng/radioButton';
+import { LoginComponent } from './seguranca/login/login.component';
 
-
-
+import { PrimeNGModule } from './primeng.modules';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     AccordionModule,
     PanelModule,
-    ButtonModule,
-    RadioButtonModule           // trocar imports, procurar arquivo
+    PrimeNGModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
